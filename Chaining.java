@@ -86,7 +86,8 @@ public class Chaining {
 		
 		HashTable table = new HashTable();
 
-		//-->Whenever there is an = sign on the line, we split the 
+		
+		`//-->Whenever there is an = sign on the line, we split the 
 		//   line into a key and value and insert into the table
 		//-->Whenever there is NOT an = sign, we lookup the entire 
 		//   line as a key. 
