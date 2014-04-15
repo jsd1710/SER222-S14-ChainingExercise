@@ -121,6 +121,7 @@ public class Chaining
 
 				System.out.println("----------------");
 				System.out.print("inserted " + key + ":" + value);
+				System.out.println();
 				if (last != null) 
 				{
 					System.out.print(" returned previous value of " + last);
@@ -135,6 +136,7 @@ public class Chaining
 				System.out.print("Looking up " + key);
 				String value = (String) table.get(key);
 				System.out.print(" found " + value);
+				System.out.println();
 				System.out.println("----------------");
 			}
 		}
