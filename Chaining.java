@@ -11,13 +11,13 @@ public class Chaining {
         static public class HashTable {
 		Node [] buckets = new Node[10];
 		int size;
-		final float threshold = 0.75;
+		final double threshold = 0.75;
 
 		public void print() {
 			for (int i = 0; i < buckets.length; ++i) {
 				System.out.print(String.format("%4d : ", i));
-               		        node current = buckets[i];
-				while (current) {
+               		        Node current = buckets[i];
+				while (current != null) {
 					System.out.print("->");
 					System.out.print(current.key);
 					System.out.print(":");
@@ -30,7 +30,7 @@ public class Chaining {
 
 		public Object insert(Object key, Object value) {
 			int code = key.hashCode();
-                        int index = code % this.size;
+                        int index = code % this.buckets.length;
 
 			//TODO  insert the new object.
 			//TODO: if the load factor exceeds this.threshold, 
@@ -44,18 +44,23 @@ public class Chaining {
 
 			
 		private Node find(Object key) {
-			
-			
 			//TODO: return a node that satidfies node.value.equals(key)
 			//      or return null if the key is not in the table.
+
+			return null;
 		}
 
-		public float loadFactor() {
+		public double loadFactor() {
 			return 0.0; //TODO:<-- replace that
 		}
 
 		public Object get(Object key, Object defaultValue) {
 			//TODO: if the key is in the table, return it. Else return defaultvalue.
+			return null;
+		}
+
+		public Object get(Object key) {
+			return this.get(key, null);
 		}
 
 
@@ -65,10 +70,9 @@ public class Chaining {
 
 
 		private void resize(int newsize) {
-			Node[] oldbuckets = this.buckets
-			
+			Node[] oldbuckets = this.buckets;
 			this.buckets = new Node[newsize];
-			this.n = 0
+			this.size = 0;
 			
 			for (Node bucket: oldbuckets) {
 				Node current = bucket;
@@ -82,35 +86,37 @@ public class Chaining {
 	}
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		
+		java.util.Scanner s = new java.util.Scanner(System.in);
 		HashTable table = new HashTable();
 
+		
 		//-->Whenever there is an = sign on the line, we split the 
 		//   line into a key and value and insert into the table
 		//-->Whenever there is NOT an = sign, we lookup the entire 
 		//   line as a key. 
 		while (s.hasNextLine()){
-			line = s.nextLine();
+			String line = s.nextLine();
 			if (line.contains("=")) {
 				String[] kv = line.split("=");
 				String key = kv[0].trim();
 				String value = kv[1];
-				String last = table.insert(key, value);
+				String last = (String)table.insert(key, value);
 				
 				System.out.println("----------------");
 				System.out.print("inserted "+key + ":" + value);
 				if (last != null){
 					System.out.print(" returned previous value of " + last);
 				}
-				System.out.prinrln("----------------");			
+				System.out.println();
+				System.out.println("----------------");			
 				table.print();
 			} else {
 				String key = line.trim();
 				System.out.println("----------------");
 				System.out.print("Looking up " + key);
-				String value = table.get(key);
+				String value = (String)table.get(key);
 				System.out.print(" found " + value);
+				System.out.println();
 				System.out.println("----------------");
 			}
 		}	
