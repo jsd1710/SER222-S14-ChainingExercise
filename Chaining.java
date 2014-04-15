@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 
 public class Chaining 
@@ -7,21 +9,21 @@ public class Chaining
 	{
 		Object key;
 		Object value;
-                Node next;
+        Node next;
     };
 
         static public class HashTable 
         {
 			Node [] buckets = new Node[10];
 			int size;
-			final float threshold = 0.75;
+			final double threshold = 0.75;
 
 			public void print() 
 			{
 				for (int i = 0; i < buckets.length; ++i) 
 				{
 					System.out.print(String.format("%4d : ", i));
-       		        node current = buckets[i];
+       		        Node current = buckets[i];
 					while (current) 
 					{
 						System.out.print("->");
@@ -58,7 +60,7 @@ public class Chaining
 			//      or return null if the key is not in the table.
 		}
 
-		public float loadFactor() 
+		public double loadFactor() 
 		{
 			return 0.0; //TODO:<-- replace that
 		}
@@ -77,10 +79,10 @@ public class Chaining
 
 		private void resize(int newsize) 
 		{
-			Node[] oldbuckets = this.buckets
+			Node[] oldbuckets = this.buckets;
 			
 			this.buckets = new Node[newsize];
-			this.n = 0
+			this.n = 0;
 			
 			for (Node bucket: oldbuckets) 
 			{
@@ -107,7 +109,7 @@ public class Chaining
 		//   line as a key. 
 		while (s.hasNextLine())
 		{
-			line = s.nextLine();
+			String line = s.nextLine();
 			if (line.contains("=")) 
 			{
 				String[] kv = line.split("=");
@@ -121,7 +123,7 @@ public class Chaining
 				{
 					System.out.print(" returned previous value of " + last);
 				}
-				System.out.prinrln("----------------");			
+				System.out.println("----------------");			
 				table.print();
 			} 
 			else 
