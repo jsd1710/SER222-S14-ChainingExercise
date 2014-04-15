@@ -4,7 +4,7 @@
 2.  Fork this repo (click the 'Fork' button at the top, it _may_ look like a '...' button).  Make it PRIVATE.
 3.  Invite @ser222-grader to your PRIVATE repo
 4.  Make sure you have a GIT client
-5.  Clone your repo
+5.  Clone your repo `git clone https://<username>@bitbucket.org/<username>/exercises-chaining.git`
 6.  Type `git remote add main https://bitbucket.org/ser222/exercises-chaining.git`
 7.  Type `git pull main`
 8.  Change some files
