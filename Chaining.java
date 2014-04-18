@@ -92,7 +92,7 @@ public class Chaining
 			Node temp = find(key);
 			if (temp != null)
 			{
-				return temp;
+				return temp.value;
 			}
 			else
 			{
