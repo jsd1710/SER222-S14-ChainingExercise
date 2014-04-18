@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-//
 public class Chaining 
 {
 
@@ -13,9 +12,11 @@ public class Chaining
 
 	static public class HashTable 
 	{
-		Node[] buckets = new Node[10];
-		int size;
+		int size = 10;
+		Node[] buckets = new Node[size];
+		
 		final double threshold = 0.75;
+		int counter = 0;
 
 		public void print() 
 		{
@@ -39,35 +40,64 @@ public class Chaining
 		{
 			int code = key.hashCode();
 			int index = code % this.buckets.length;
+			
+			if (this.loadFactor() > this.threshold)
+			{
+				this.resize(this.size*2);
+			}
+			
+			if (find(key) != null)
+			{
+				Node temp = find(key);
+				Object old_value = temp.value;
+				temp.value = value;
+				return  old_value;
+			}
+			counter++;
+			
+			Node new_node = new Node();
+			new_node.value = value;
+			new_node.key = key;
+			new_node.next = buckets[index];
+			buckets[index] = new_node;
+			
 
-			// TODO insert the new object.
-			// TODO: if the load factor exceeds this.threshold,
-			// then double the capacity of the table
-
-			// If the key was already in the table, just change
-			// the value and return the previous value
-
-			return null; // TODO: <--- replace that!
+			return null; 
 		}
 
 		private Node find(Object key) 
 		{
-
-			// TODO: return a node that satisfies node.value.equals(key)
-			// or return null if the key is not in the table.
-			return null; //TODO: <--- replace that!
+			for (int i = 0; i < this.buckets.length; i++)
+			{
+				Node temp = buckets[i];
+				while (temp != null)
+				{
+					if (temp.key.equals(key))
+					{
+						return temp;
+					}
+					temp = temp.next;
+				}
+			}
+			return null;
 		}
 
 		public double loadFactor() 
 		{
-			return 0.0; // TODO:<--- replace that!
+			return ((double)counter)/((double)size);
 		}
 
 		public Object get(Object key, Object defaultValue) 
 		{
-			// TODO: if the key is in the table, return it. Else return
-			// default value.
-			return null; //TODO: <--- replace that!
+			Node temp = find(key);
+			if (temp != null)
+			{
+				return temp;
+			}
+			else
+			{
+				return defaultValue;
+			}
 		}
 		
 		public Object get(Object key)
@@ -85,7 +115,7 @@ public class Chaining
 			Node[] oldbuckets = this.buckets;
 
 			this.buckets = new Node[newsize];
-			this.size = 0;
+			this.size = newsize;
 
 			for (Node bucket : oldbuckets) 
 			{
@@ -122,11 +152,11 @@ public class Chaining
 
 				System.out.println("----------------");
 				System.out.print("inserted " + key + ":" + value);
-				System.out.println();
 				if (last != null) 
 				{
 					System.out.print(" returned previous value of " + last);
 				}
+				System.out.println();
 				System.out.println("----------------");
 				table.print();
 			} 
