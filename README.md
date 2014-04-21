@@ -18,6 +18,14 @@
 11. Type `git push origin`
 12.  Go to 7
 
+#Help
+Use the IRC channel [irc://irc.freenode.net/ser222](irc://irc.freenode.net/ser222) to ask questions to your peers and myself.
+You can use [irccloud](https://www.irccloud.com/) to keep persistent logs of the discussion (It should continue to keep track of the converstation on your behalf for about 2 hours after you lose connection, 
+and you can recconect from multiple devices without losing track of the ocnversation). 
+You can also use the web based client [http://webchat.freenode.net/][(http://webchat.freenode.net/) or
+your favorite tool. You may need to modify the port (6666 vs 6665 perhaps) in order to avoid it getting blocked by ASU.
+
+
 #Testing
 
 Use this to test your code.
@@ -54,7 +62,8 @@ In general misunderstanding the assignment is not an excuse; misunderstanding th
 You are expected to understand the concepts well enough to spot inconsistancies and **ask** about them before
 submitting. 
 
-<font color="red">I cannot allow students who cannot produce code to move forward. 
+***
+I cannot allow students who cannot produce code to move forward. 
 It is a disservice to you and to the the computing program.
 You will receive a 0 on your exams if you have not submitted the previous programming assignments
-</font> 
+*** 
