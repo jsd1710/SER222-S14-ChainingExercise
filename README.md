@@ -54,4 +54,7 @@ In general misunderstanding the assignment is not an excuse; misunderstanding th
 You are expected to understand the concepts well enough to spot inconsistancies and **ask** about them before
 submitting. 
 
-**<font color="red">You will receive a 0 on your exams if you have not submitted the previous programming assignments</font>**
+<font color="red">I cannot allow students who cannot produce code to move forward. 
+It is a disservice to you and to the the computing program.
+You will receive a 0 on your exams if you have not submitted the previous programming assignments
+</font> 
