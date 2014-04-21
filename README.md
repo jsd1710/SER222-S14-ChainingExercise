@@ -18,4 +18,18 @@
 11. Type `git push origin`
 12.  Go to 7
 
+#Grading
 
+We will set checkpoints; you will lose points each time a checkpoint passes and your code is not satisfactory. 
+The penalties are:
+-9%:  Your code does not appear to have been modified since the last checkpoint
+-5%: You fail to produce the expected output for any test case
+-5%.  We find an major issue in your sourcecode 
+
+After the last checkpoint, if your code does not pass, you will receive a zero.  
+I will not tell you which checkpoint is last; there may be only one checkpoint (the due date). 
+
+
+In general misunderstanding the assignment is not an excuse; misunderstanding the test harness is not an excuse.  
+You are expected to understand the concepts well enough to spot inconsistancies and **ask** about them before
+submitting. 
