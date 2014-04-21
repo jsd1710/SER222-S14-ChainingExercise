@@ -53,3 +53,5 @@ I will not tell you which checkpoint is last; there may be only one checkpoint (
 In general misunderstanding the assignment is not an excuse; misunderstanding the test harness is not an excuse.  
 You are expected to understand the concepts well enough to spot inconsistancies and **ask** about them before
 submitting. 
+
+**<font color="red">You will receive a 0 on your exams if you have not submitted the previous programming assignments</font>**
