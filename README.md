@@ -24,14 +24,14 @@ Use this to test your code.
 
 ## Linux/ osx
 ```
-$  java Chaining < test1.in >test1.out
+$  java Chaining < test.in >test.out
 $  diff test.out test.expected
 ```
 
 ## Windows 
 ```
-> java Chaining < test1.in > test1.out
-> FC test.out tst.expected
+> java Chaining < test.in > test.out
+> FC test.out test.expected
 ```
 
 
