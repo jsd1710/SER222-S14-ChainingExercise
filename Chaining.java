@@ -79,7 +79,7 @@ public class Chaining {
         /** TODO: Document this method.
          */
         public Object put(Object key, Object value) {
-            int code = key.hashCode();
+            int code = Math.abs(key.hashCode());
             int index = code % this.buckets.length;
 
             //TODO  insert the mapping from key to value. If the key is 
