@@ -1,0 +1,2074 @@
+This is the HashTable exercise.
+Type KEY=VALUE[ENTER] to insert a key, type KEY[ENTER] to look one up.
+Type CTRL+D when you are done.
+
+----------------
+Inserted broadness:ardassine
+----------------
+HASHTABLE
+   SIZE:1
+   CAPACITY:10
+   LOAD-FACTOR:0.1
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->broadness:ardassine
+----------------
+Looking up idiochromosome found null
+----------------
+----------------
+Inserted unbenumbed:counterdecision
+----------------
+HASHTABLE
+   SIZE:2
+   CAPACITY:10
+   LOAD-FACTOR:0.2
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->unbenumbed:counterdecision->broadness:ardassine
+----------------
+Inserted transtemporal:thump
+----------------
+HASHTABLE
+   SIZE:3
+   CAPACITY:10
+   LOAD-FACTOR:0.3
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : ->transtemporal:thump
+   9 : ->unbenumbed:counterdecision->broadness:ardassine
+----------------
+Inserted atmocautery:pinonic
+----------------
+HASHTABLE
+   SIZE:4
+   CAPACITY:10
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : ->atmocautery:pinonic
+   7 : 
+   8 : ->transtemporal:thump
+   9 : ->unbenumbed:counterdecision->broadness:ardassine
+----------------
+Looking up decal found null
+----------------
+----------------
+Looking up snakeworm found null
+----------------
+----------------
+Inserted brucite:inventorial
+----------------
+HASHTABLE
+   SIZE:5
+   CAPACITY:10
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial
+   5 : 
+   6 : ->atmocautery:pinonic
+   7 : 
+   8 : ->transtemporal:thump
+   9 : ->unbenumbed:counterdecision->broadness:ardassine
+----------------
+Inserted unrustic:hyperpnoea
+----------------
+HASHTABLE
+   SIZE:6
+   CAPACITY:10
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->atmocautery:pinonic
+   7 : 
+   8 : ->transtemporal:thump
+   9 : ->unbenumbed:counterdecision->broadness:ardassine
+----------------
+Inserted Heraclidae:clonicity
+----------------
+HASHTABLE
+   SIZE:7
+   CAPACITY:10
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->atmocautery:pinonic
+   7 : 
+   8 : ->Heraclidae:clonicity->transtemporal:thump
+   9 : ->unbenumbed:counterdecision->broadness:ardassine
+----------------
+Inserted reaggregation:bankruptship
+----------------
+HASHTABLE
+   SIZE:8
+   CAPACITY:20
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->atmocautery:pinonic
+   7 : 
+   8 : ->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : 
+  15 : 
+  16 : 
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Inserted tentative:empyocele
+----------------
+HASHTABLE
+   SIZE:9
+   CAPACITY:20
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : 
+  15 : 
+  16 : 
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Looking up onflemed found null
+----------------
+----------------
+Looking up merosystematic found null
+----------------
+----------------
+Looking up dawut found null
+----------------
+----------------
+Looking up yappish found null
+----------------
+----------------
+Looking up percher found null
+----------------
+----------------
+Inserted onflemed:pridefulness
+----------------
+HASHTABLE
+   SIZE:10
+   CAPACITY:20
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->onflemed:pridefulness->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : 
+  15 : 
+  16 : 
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Looking up secularness found null
+----------------
+----------------
+Looking up atmocautery found pinonic
+----------------
+----------------
+Inserted wettish:nonsociety
+----------------
+HASHTABLE
+   SIZE:11
+   CAPACITY:20
+   LOAD-FACTOR:0.55
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->onflemed:pridefulness->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : 
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Looking up trophallaxis found null
+----------------
+----------------
+Inserted gnathite:teachery
+----------------
+HASHTABLE
+   SIZE:12
+   CAPACITY:20
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->gnathite:teachery->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->onflemed:pridefulness->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : 
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Looking up pteropaedic found null
+----------------
+----------------
+Inserted pteropaedic:bhandar
+----------------
+HASHTABLE
+   SIZE:13
+   CAPACITY:20
+   LOAD-FACTOR:0.65
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->pteropaedic:bhandar->gnathite:teachery->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->onflemed:pridefulness->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : 
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Looking up outtire found null
+----------------
+----------------
+Looking up secularness found null
+----------------
+----------------
+Inserted haruspice:Iachimo
+----------------
+HASHTABLE
+   SIZE:14
+   CAPACITY:20
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->pteropaedic:bhandar->gnathite:teachery->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->onflemed:pridefulness->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Inserted merosystematic:immunogen
+----------------
+HASHTABLE
+   SIZE:15
+   CAPACITY:20
+   LOAD-FACTOR:0.75
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->reaggregation:bankruptship
+   4 : ->pteropaedic:bhandar->gnathite:teachery->brucite:inventorial
+   5 : ->unrustic:hyperpnoea
+   6 : ->tentative:empyocele->atmocautery:pinonic
+   7 : 
+   8 : ->onflemed:pridefulness->Heraclidae:clonicity
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : ->merosystematic:immunogen
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->broadness:ardassine
+----------------
+Looking up transtemporal found thump
+----------------
+----------------
+Inserted secularness:rhodeose
+----------------
+HASHTABLE
+   SIZE:16
+   CAPACITY:40
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : 
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : 
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up percher found null
+----------------
+----------------
+Inserted radiodiagnosis:splenopexia
+----------------
+HASHTABLE
+   SIZE:17
+   CAPACITY:40
+   LOAD-FACTOR:0.425
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : 
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up decal found null
+----------------
+----------------
+Inserted os:Mohammedanism
+----------------
+HASHTABLE
+   SIZE:18
+   CAPACITY:40
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Inserted homeoplasia:execrable
+----------------
+HASHTABLE
+   SIZE:19
+   CAPACITY:40
+   LOAD-FACTOR:0.475
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Inserted Amoyese:counterbrand
+----------------
+HASHTABLE
+   SIZE:20
+   CAPACITY:40
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up entoil found null
+----------------
+----------------
+Looking up tentative found empyocele
+----------------
+----------------
+Inserted whittaw:acephaline
+----------------
+HASHTABLE
+   SIZE:21
+   CAPACITY:40
+   LOAD-FACTOR:0.525
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Inserted aviary:phlegmaticly
+----------------
+HASHTABLE
+   SIZE:22
+   CAPACITY:40
+   LOAD-FACTOR:0.55
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Inserted absonous:wedlock
+----------------
+HASHTABLE
+   SIZE:23
+   CAPACITY:40
+   LOAD-FACTOR:0.575
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : 
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up onflemed found pridefulness
+----------------
+----------------
+Inserted hopelessly:individuation
+----------------
+HASHTABLE
+   SIZE:24
+   CAPACITY:40
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Inserted Monodon:Muradiyah
+----------------
+HASHTABLE
+   SIZE:25
+   CAPACITY:40
+   LOAD-FACTOR:0.625
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->Monodon:Muradiyah->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up haruspice found Iachimo
+----------------
+----------------
+Inserted percher:semiagricultural
+----------------
+HASHTABLE
+   SIZE:26
+   CAPACITY:40
+   LOAD-FACTOR:0.65
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->percher:semiagricultural->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : 
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->Monodon:Muradiyah->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Inserted yappish:turk
+----------------
+HASHTABLE
+   SIZE:27
+   CAPACITY:40
+   LOAD-FACTOR:0.675
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->percher:semiagricultural->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->Monodon:Muradiyah->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up unbenumbed found counterdecision
+----------------
+----------------
+Looking up absonous found wedlock
+----------------
+----------------
+Inserted entoil:angioblastic
+----------------
+HASHTABLE
+   SIZE:28
+   CAPACITY:40
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->percher:semiagricultural->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : 
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->entoil:angioblastic->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->Monodon:Muradiyah->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up snakeworm found null
+----------------
+----------------
+Inserted fortuitously:phytosaur
+----------------
+HASHTABLE
+   SIZE:29
+   CAPACITY:40
+   LOAD-FACTOR:0.725
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->percher:semiagricultural->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->fortuitously:phytosaur
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->entoil:angioblastic->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->Monodon:Muradiyah->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up pteropaedic found bhandar
+----------------
+----------------
+Looking up radiodiagnosis found splenopexia
+----------------
+----------------
+Looking up hopelessly found individuation
+----------------
+----------------
+Looking up unbenumbed found counterdecision
+----------------
+----------------
+Inserted antronasal:pervicacity
+----------------
+HASHTABLE
+   SIZE:30
+   CAPACITY:40
+   LOAD-FACTOR:0.75
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->aviary:phlegmaticly->brucite:inventorial->gnathite:teachery
+   5 : 
+   6 : ->whittaw:acephaline
+   7 : 
+   8 : 
+   9 : ->antronasal:pervicacity->percher:semiagricultural->Amoyese:counterbrand->unbenumbed:counterdecision
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : ->transtemporal:thump
+  19 : ->fortuitously:phytosaur
+  20 : 
+  21 : 
+  22 : ->homeoplasia:execrable->radiodiagnosis:splenopexia
+  23 : ->reaggregation:bankruptship
+  24 : ->pteropaedic:bhandar
+  25 : ->entoil:angioblastic->unrustic:hyperpnoea
+  26 : ->atmocautery:pinonic->tentative:empyocele
+  27 : 
+  28 : ->Heraclidae:clonicity->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->Monodon:Muradiyah->secularness:rhodeose
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+----------------
+Looking up aviary found phlegmaticly
+----------------
+----------------
+Looking up whittaw found acephaline
+----------------
+----------------
+Looking up trophallaxis found null
+----------------
+----------------
+Inserted beweary:bargainer
+----------------
+HASHTABLE
+   SIZE:31
+   CAPACITY:80
+   LOAD-FACTOR:0.3875
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : 
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : 
+  52 : 
+  53 : 
+  54 : 
+  55 : 
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Looking up discardment found null
+----------------
+----------------
+Looking up aviary found phlegmaticly
+----------------
+----------------
+Looking up homeoplasia found execrable
+----------------
+----------------
+Inserted dawut:simplicity
+----------------
+HASHTABLE
+   SIZE:32
+   CAPACITY:80
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : 
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : 
+  52 : 
+  53 : 
+  54 : 
+  55 : 
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Inserted trophallaxis:sheathbill
+----------------
+HASHTABLE
+   SIZE:33
+   CAPACITY:80
+   LOAD-FACTOR:0.4125
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : 
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : 
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Looking up pteropaedic found bhandar
+----------------
+----------------
+Inserted decal:subtransverse
+----------------
+HASHTABLE
+   SIZE:34
+   CAPACITY:80
+   LOAD-FACTOR:0.425
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : 
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Inserted disluster:glossed
+----------------
+HASHTABLE
+   SIZE:35
+   CAPACITY:80
+   LOAD-FACTOR:0.4375
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : ->disluster:glossed
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : 
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Looking up disluster found glossed
+----------------
+----------------
+Looking up wettish found nonsociety
+----------------
+----------------
+Looking up entoil found angioblastic
+----------------
+----------------
+Inserted discardment:unslockened
+----------------
+HASHTABLE
+   SIZE:36
+   CAPACITY:80
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->discardment:unslockened
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : ->disluster:glossed
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : 
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Looking up Amoyese found counterbrand
+----------------
+----------------
+Inserted snakeworm:needy
+----------------
+HASHTABLE
+   SIZE:37
+   CAPACITY:80
+   LOAD-FACTOR:0.4625
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->discardment:unslockened
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : ->disluster:glossed
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : ->snakeworm:needy
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : 
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Looking up snakeworm found needy
+----------------
+----------------
+Inserted outtire:tharm
+----------------
+HASHTABLE
+   SIZE:38
+   CAPACITY:80
+   LOAD-FACTOR:0.475
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->discardment:unslockened
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : ->disluster:glossed
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : ->snakeworm:needy
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : 
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : ->outtire:tharm
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Inserted idiochromosome:comitragedy
+----------------
+HASHTABLE
+   SIZE:39
+   CAPACITY:80
+   LOAD-FACTOR:0.4875
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->discardment:unslockened
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : ->disluster:glossed
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : 
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : ->snakeworm:needy
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : ->idiochromosome:comitragedy
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : ->outtire:tharm
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 
+----------------
+Inserted greenkeeper:choreography
+----------------
+HASHTABLE
+   SIZE:40
+   CAPACITY:80
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->discardment:unslockened
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->dawut:simplicity->unbenumbed:counterdecision->antronasal:pervicacity
+  10 : ->yappish:turk
+  11 : 
+  12 : ->absonous:wedlock
+  13 : 
+  14 : ->haruspice:Iachimo
+  15 : 
+  16 : ->wettish:nonsociety
+  17 : 
+  18 : 
+  19 : 
+  20 : 
+  21 : ->disluster:glossed
+  22 : ->radiodiagnosis:splenopexia->homeoplasia:execrable
+  23 : 
+  24 : ->pteropaedic:bhandar
+  25 : ->unrustic:hyperpnoea->entoil:angioblastic->beweary:bargainer
+  26 : ->atmocautery:pinonic
+  27 : 
+  28 : ->onflemed:pridefulness
+  29 : 
+  30 : ->hopelessly:individuation
+  31 : 
+  32 : ->secularness:rhodeose->Monodon:Muradiyah
+  33 : ->merosystematic:immunogen
+  34 : 
+  35 : 
+  36 : ->os:Mohammedanism
+  37 : 
+  38 : 
+  39 : ->broadness:ardassine
+  40 : 
+  41 : 
+  42 : 
+  43 : ->greenkeeper:choreography
+  44 : ->gnathite:teachery->brucite:inventorial->aviary:phlegmaticly
+  45 : ->decal:subtransverse
+  46 : ->whittaw:acephaline
+  47 : 
+  48 : 
+  49 : ->Amoyese:counterbrand->percher:semiagricultural
+  50 : 
+  51 : ->snakeworm:needy
+  52 : 
+  53 : 
+  54 : 
+  55 : ->trophallaxis:sheathbill
+  56 : 
+  57 : ->idiochromosome:comitragedy
+  58 : ->transtemporal:thump
+  59 : ->fortuitously:phytosaur
+  60 : 
+  61 : 
+  62 : 
+  63 : ->reaggregation:bankruptship
+  64 : 
+  65 : 
+  66 : ->tentative:empyocele
+  67 : 
+  68 : ->Heraclidae:clonicity
+  69 : 
+  70 : 
+  71 : 
+  72 : 
+  73 : 
+  74 : ->outtire:tharm
+  75 : 
+  76 : 
+  77 : 
+  78 : 
+  79 : 

@@ -1,5 +1,10 @@
 #Instructions
 
+1. (recommended) Add java docstrings to each method. ASK if it seems unclear.
+2. (required) Implement the methods that are incomplete (have TODO comments)
+3. (assumed) Test your code before submitting it (always do that!)    
+
+#Submission
 1.  Create a personal account on bitbucket *with your @ asu.edu email*
 2.  Fork this repo (click the 'Fork' button at the top, it _may_ look like a '...' button).  Make it PRIVATE.
 3.  Invite @ser222-grader to your PRIVATE repo
@@ -12,3 +17,5 @@
 10. Type `git commit -m "<a message>"`
 11. Type `git push origin`
 12.  Go to 7
+
+
