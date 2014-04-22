@@ -10,14 +10,16 @@
  * This is an assignment asking students to complete a HashTable that uses
  * chaining. 
  */
-public class Chaining {
+public class Chaining 
+{
 
    
     /** A Node from a singly linked list.
      *
      * This is used to represent each bucket as a singly linked list. 
      */
-    static class Node {
+    static class Node 
+    {
             /** The name associated with a piece of data (can actually be any object. **/
             Object key;
 
@@ -37,7 +39,8 @@ public class Chaining {
      *  other assigned reading. Make sure you are using CHAINING
      *  and not some other approach.
      */
-    static public class HashTable {
+    static public class HashTable 
+    {
         /** Bucket/bins for the hash table - each bucket is the head reference of a linked list. */
         Node [] buckets = new Node[10];
 
@@ -53,17 +56,20 @@ public class Chaining {
          * This function is here to help you understand the structure of the hash table
          * or to help in debugging.
          */
-        public void print() {
+        public void print() 
+        {
             System.out.println("HASHTABLE");
             System.out.println("   SIZE:" + this.size);
             System.out.println("   CAPACITY:" + this.buckets.length);
             System.out.println("   LOAD-FACTOR:" + this.loadFactor());
 
             System.out.println("   BINS:");
-            for (int i = 0; i < buckets.length; ++i) {
+            for (int i = 0; i < buckets.length; ++i) 
+            {
                 System.out.print(String.format("%4d : ", i));
                             Node current = buckets[i];
-                while (current != null) {
+                while (current != null) 
+                {
                     System.out.print("->");
                     System.out.print(current.key);
                     System.out.print(":");
@@ -77,15 +83,32 @@ public class Chaining {
         
         /** TODO: Document this method.
          */
-        public Object put(Object key, Object value) {
+        public Object put(Object key, Object value) 
+        {
             int code = Math.abs(key.hashCode());
             int index = code % this.buckets.length;
 
-            //TODO  insert the mapping from key to value. If the key is 
-            //      already associated with a value then the old value is
-            //      replaced by the new one. 
-            //TODO: if the load factor exceeds this.threshold, 
-            //      then double the capacity of the table
+            
+            if (find(key) != null)
+			{
+				Node temp = find(key);
+				Object old_value = temp.value;
+				temp.value = value;
+				return  old_value;
+			}
+            
+			size++;
+			
+			Node new_node = new Node();
+			new_node.value = value;
+			new_node.key = key;
+			new_node.next = buckets[index];
+			buckets[index] = new_node;
+			
+            if (this.loadFactor() > this.threshold)
+			{
+				this.ensureCapacity(this.buckets.length*2);
+			}
 
             //NOTE: Make sure you insert into the HEAD of each list when you have to add new nodes. 
             //Delete these comments after adding code + Java docs
@@ -99,32 +122,51 @@ public class Chaining {
             //   x.put("A", "C"); //returns "B"
             //   x.put("A", "D"); //returns "C"
 
-            return null; //TODO: <--- replace that!
+            return null; 
         }
 
             
         /** TODO: Document this PRIVATE method.
          */
-        private Node find(Object key) {
-            //TODO: return a node with a matching key, 
-            //      or return null if the key is not in the table.
-
+        private Node find(Object key) 
+        {
+        	int index = Math.abs(key.hashCode() % this.buckets.length);
+        	
+        	Node temp = buckets[index];
+        	while (temp != null)
+        	{
+        		if (temp.key.equals(key))
+        		{
+        			return temp;
+        		}
+        		temp = temp.next;
+        	}
+        	
             return null;
         }
 
         
         /** TODO: Document this method.
          */
-        public double loadFactor() {
-            return 0.0; //TODO:<-- replace that
+        public double loadFactor() 
+        {
+        	return ((double)size)/((double)buckets.length);
         }
 
 
         /** TODO: Document this method.
          */
-        public Object get(Object key, Object defaultValue) {
-            //TODO: if the key is in the table, return the corresponding value. Else return defaultValue.
-            return null;
+        public Object get(Object key, Object defaultValue) 
+        {
+        	Node temp = find(key);
+			if (temp != null)
+			{
+				return temp.value;
+			}
+			else
+			{
+				return defaultValue;
+			}
         }
 
 
@@ -141,7 +183,8 @@ public class Chaining {
          *
          * @see #get(Object, Object)
          */
-        public Object get(Object key) {
+        public Object get(Object key) 
+        {
             return this.get(key, null);
         }
 
@@ -151,7 +194,8 @@ public class Chaining {
          * @param key A key that may (or may not) have been inserted into the dictionary.
          * @return true if the key was in the dictionary, false else. 
          */
-        public boolean contains(Object key) {
+        public boolean contains(Object key) 
+        {
             return find(key) != null;
         }
 
@@ -168,14 +212,17 @@ public class Chaining {
          *
          * @param newCapacity  The desired number of buckets.
          */
-        private void ensureCapacity(int newCapacity) {
+        private void ensureCapacity(int newCapacity) 
+        {
             Node[] oldbuckets = this.buckets;
             this.buckets = new Node[newCapacity];
             this.size = 0;
             
-            for (Node bucket: oldbuckets) {
+            for (Node bucket: oldbuckets) 
+            {
                 Node current = bucket;
-                while (current != null){
+                while (current != null)
+                {
                     put(current.key, current.value);
                     current = current.next;
                 }
@@ -202,7 +249,8 @@ public class Chaining {
      * After each modification to the table, the entire table is output as
      * well as the load factor and size.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         java.util.Scanner s = new java.util.Scanner(System.in);
         HashTable table = new HashTable();
 
@@ -218,9 +266,11 @@ public class Chaining {
         //   line into a key and value and insert into the table
         //-->Whenever there is NOT an = sign, we lookup the entire 
         //   line as a key. 
-        while (s.hasNextLine()){
+        while (s.hasNextLine())
+        {
             String line = s.nextLine();
-            if (line.contains("=")) {
+            if (line.contains("=")) 
+            {
                 String[] kv = line.split("=");
                 String key = kv[0].trim();
                 String value = kv[1];
@@ -228,13 +278,16 @@ public class Chaining {
                 
                 System.out.println("----------------");
                 System.out.print("Inserted "+key + ":" + value);
-                if (last != null){
+                if (last != null)
+                {
                     System.out.print(" returned previous value of " + last);
                 }
                 System.out.println();
                 System.out.println("----------------");         
                 table.print();
-            } else {
+            } 
+            else 
+            {
                 String key = line.trim();
                 System.out.println("----------------");
                 System.out.print("Looking up " + key);

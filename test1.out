@@ -1,0 +1,244 @@
+This is the HashTable exercise.
+Type KEY=VALUE[ENTER] to insert a key, type KEY[ENTER] to look one up.
+Type CTRL+D when you are done.
+
+----------------
+Looking up antiegotism found null
+----------------
+----------------
+Inserted antiegotism:electrometric
+----------------
+HASHTABLE
+   SIZE:1
+   CAPACITY:10
+   LOAD-FACTOR:0.1
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : ->antiegotism:electrometric
+   7 : 
+   8 : 
+   9 : 
+----------------
+Inserted Jethro:nympholept
+----------------
+HASHTABLE
+   SIZE:2
+   CAPACITY:10
+   LOAD-FACTOR:0.2
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : ->Jethro:nympholept->antiegotism:electrometric
+   7 : 
+   8 : 
+   9 : 
+----------------
+Inserted reincarnationism:Conium
+----------------
+HASHTABLE
+   SIZE:3
+   CAPACITY:10
+   LOAD-FACTOR:0.3
+   BINS:
+   0 : 
+   1 : 
+   2 : ->reincarnationism:Conium
+   3 : 
+   4 : 
+   5 : 
+   6 : ->Jethro:nympholept->antiegotism:electrometric
+   7 : 
+   8 : 
+   9 : 
+----------------
+Inserted hypererethism:truehearted
+----------------
+HASHTABLE
+   SIZE:4
+   CAPACITY:10
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : ->reincarnationism:Conium
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->Jethro:nympholept->antiegotism:electrometric
+   7 : 
+   8 : 
+   9 : 
+----------------
+Inserted matmaking:wadmeal
+----------------
+HASHTABLE
+   SIZE:5
+   CAPACITY:10
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : ->reincarnationism:Conium
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->Jethro:nympholept->antiegotism:electrometric
+   7 : ->matmaking:wadmeal
+   8 : 
+   9 : 
+----------------
+Inserted western:linwood
+----------------
+HASHTABLE
+   SIZE:6
+   CAPACITY:10
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : 
+   2 : ->reincarnationism:Conium
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->western:linwood->Jethro:nympholept->antiegotism:electrometric
+   7 : ->matmaking:wadmeal
+   8 : 
+   9 : 
+----------------
+Inserted Oculinidae:unlined
+----------------
+HASHTABLE
+   SIZE:7
+   CAPACITY:10
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : 
+   2 : ->reincarnationism:Conium
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->western:linwood->Jethro:nympholept->antiegotism:electrometric
+   7 : ->matmaking:wadmeal
+   8 : 
+   9 : ->Oculinidae:unlined
+----------------
+Looking up western found linwood
+----------------
+----------------
+Looking up Psiloceratidae found null
+----------------
+----------------
+Inserted armadillo:pampinocele
+----------------
+HASHTABLE
+   SIZE:8
+   CAPACITY:20
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->antiegotism:electrometric->western:linwood
+   7 : ->matmaking:wadmeal->armadillo:pampinocele
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : ->reincarnationism:Conium
+  13 : 
+  14 : 
+  15 : 
+  16 : ->Jethro:nympholept
+  17 : 
+  18 : 
+  19 : ->Oculinidae:unlined
+----------------
+Looking up antiegotism found electrometric
+----------------
+----------------
+Inserted Psiloceratidae:dogplate
+----------------
+HASHTABLE
+   SIZE:9
+   CAPACITY:20
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->antiegotism:electrometric->western:linwood
+   7 : ->matmaking:wadmeal->armadillo:pampinocele
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : ->reincarnationism:Conium
+  13 : 
+  14 : 
+  15 : 
+  16 : ->Jethro:nympholept
+  17 : ->Psiloceratidae:dogplate
+  18 : 
+  19 : ->Oculinidae:unlined
+----------------
+Looking up Oculinidae found unlined
+----------------
+----------------
+Looking up reincarnationism found Conium
+----------------
+----------------
+Looking up leptomeningitis found null
+----------------
+----------------
+Looking up leptomeningitis found null
+----------------
+----------------
+Looking up Jethro found nympholept
+----------------
+----------------
+Inserted leptomeningitis:daylit
+----------------
+HASHTABLE
+   SIZE:10
+   CAPACITY:20
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : ->hypererethism:truehearted
+   4 : 
+   5 : 
+   6 : ->antiegotism:electrometric->western:linwood
+   7 : ->matmaking:wadmeal->armadillo:pampinocele
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : ->reincarnationism:Conium
+  13 : 
+  14 : 
+  15 : 
+  16 : ->Jethro:nympholept
+  17 : ->Psiloceratidae:dogplate
+  18 : 
+  19 : ->leptomeningitis:daylit->Oculinidae:unlined
+----------------
+Looking up western found linwood
+----------------

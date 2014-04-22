@@ -1,0 +1,654 @@
+This is the HashTable exercise.
+Type KEY=VALUE[ENTER] to insert a key, type KEY[ENTER] to look one up.
+Type CTRL+D when you are done.
+
+----------------
+Inserted Plautus:cenozoology
+----------------
+HASHTABLE
+   SIZE:1
+   CAPACITY:10
+   LOAD-FACTOR:0.1
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Inserted Animalia:emulant
+----------------
+HASHTABLE
+   SIZE:2
+   CAPACITY:10
+   LOAD-FACTOR:0.2
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Inserted merchantish:unredeemableness
+----------------
+HASHTABLE
+   SIZE:3
+   CAPACITY:10
+   LOAD-FACTOR:0.3
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->merchantish:unredeemableness->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Inserted phylacteried:cupholder
+----------------
+HASHTABLE
+   SIZE:4
+   CAPACITY:10
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : ->phylacteried:cupholder
+   1 : 
+   2 : 
+   3 : 
+   4 : ->merchantish:unredeemableness->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Inserted metacone:beholden
+----------------
+HASHTABLE
+   SIZE:5
+   CAPACITY:10
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : ->phylacteried:cupholder
+   1 : 
+   2 : 
+   3 : 
+   4 : ->merchantish:unredeemableness->Animalia:emulant
+   5 : 
+   6 : ->metacone:beholden
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Inserted diminutiveness:paragenetic
+----------------
+HASHTABLE
+   SIZE:6
+   CAPACITY:10
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : ->phylacteried:cupholder
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->merchantish:unredeemableness->Animalia:emulant
+   5 : 
+   6 : ->metacone:beholden
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Looking up fructuary found null
+----------------
+----------------
+Looking up fructuary found null
+----------------
+----------------
+Inserted Potoroinae:rotational
+----------------
+HASHTABLE
+   SIZE:7
+   CAPACITY:10
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : ->phylacteried:cupholder
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->merchantish:unredeemableness->Animalia:emulant
+   5 : 
+   6 : ->Potoroinae:rotational->metacone:beholden
+   7 : 
+   8 : ->Plautus:cenozoology
+   9 : 
+----------------
+Inserted apprehensibly:auxanometer
+----------------
+HASHTABLE
+   SIZE:8
+   CAPACITY:20
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : ->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+----------------
+Looking up esophagitis found null
+----------------
+----------------
+Inserted Megalaemidae:psychicist
+----------------
+HASHTABLE
+   SIZE:9
+   CAPACITY:20
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : ->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+----------------
+Looking up Atherurus found null
+----------------
+----------------
+Inserted procompensation:gnostically
+----------------
+HASHTABLE
+   SIZE:10
+   CAPACITY:20
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : ->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : ->procompensation:gnostically
+----------------
+Inserted esophagitis:allopelagic
+----------------
+HASHTABLE
+   SIZE:11
+   CAPACITY:20
+   LOAD-FACTOR:0.55
+   BINS:
+   0 : ->esophagitis:allopelagic->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : ->procompensation:gnostically
+----------------
+Looking up exuberantness found null
+----------------
+----------------
+Looking up frostroot found null
+----------------
+----------------
+Looking up procompensation found gnostically
+----------------
+----------------
+Looking up fructuary found null
+----------------
+----------------
+Inserted frostroot:chide
+----------------
+HASHTABLE
+   SIZE:12
+   CAPACITY:20
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : ->esophagitis:allopelagic->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : ->procompensation:gnostically
+----------------
+Looking up diminutiveness found paragenetic
+----------------
+----------------
+Inserted fructuary:remancipation
+----------------
+HASHTABLE
+   SIZE:13
+   CAPACITY:20
+   LOAD-FACTOR:0.65
+   BINS:
+   0 : ->esophagitis:allopelagic->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : ->fructuary:remancipation
+  18 : ->Plautus:cenozoology
+  19 : ->procompensation:gnostically
+----------------
+Looking up exuberantness found null
+----------------
+----------------
+Looking up Animalia found emulant
+----------------
+----------------
+Looking up Atherurus found null
+----------------
+----------------
+Inserted doggedly:rectum
+----------------
+HASHTABLE
+   SIZE:14
+   CAPACITY:20
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : ->esophagitis:allopelagic->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : ->doggedly:rectum
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : ->fructuary:remancipation
+  18 : ->Plautus:cenozoology
+  19 : ->procompensation:gnostically
+----------------
+Looking up regurgitant found null
+----------------
+----------------
+Inserted regurgitant:Alces
+----------------
+HASHTABLE
+   SIZE:15
+   CAPACITY:20
+   LOAD-FACTOR:0.75
+   BINS:
+   0 : ->esophagitis:allopelagic->phylacteried:cupholder->apprehensibly:auxanometer
+   1 : ->diminutiveness:paragenetic
+   2 : 
+   3 : ->doggedly:rectum
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : ->regurgitant:Alces
+  11 : 
+  12 : 
+  13 : 
+  14 : ->Megalaemidae:psychicist->merchantish:unredeemableness
+  15 : 
+  16 : ->metacone:beholden->Potoroinae:rotational
+  17 : ->fructuary:remancipation
+  18 : ->Plautus:cenozoology
+  19 : ->procompensation:gnostically
+----------------
+Inserted activable:biliation
+----------------
+HASHTABLE
+   SIZE:16
+   CAPACITY:40
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->merchantish:unredeemableness->Megalaemidae:psychicist
+  15 : 
+  16 : ->Potoroinae:rotational->metacone:beholden
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+  20 : ->apprehensibly:auxanometer->phylacteried:cupholder->esophagitis:allopelagic
+  21 : ->diminutiveness:paragenetic
+  22 : 
+  23 : ->doggedly:rectum
+  24 : 
+  25 : 
+  26 : 
+  27 : 
+  28 : 
+  29 : 
+  30 : ->regurgitant:Alces
+  31 : 
+  32 : 
+  33 : ->activable:biliation
+  34 : 
+  35 : 
+  36 : 
+  37 : ->fructuary:remancipation
+  38 : 
+  39 : ->procompensation:gnostically
+----------------
+Inserted alectryomachy:Cercopithecus
+----------------
+HASHTABLE
+   SIZE:17
+   CAPACITY:40
+   LOAD-FACTOR:0.425
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->merchantish:unredeemableness->Megalaemidae:psychicist
+  15 : 
+  16 : ->Potoroinae:rotational->metacone:beholden
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+  20 : ->apprehensibly:auxanometer->phylacteried:cupholder->esophagitis:allopelagic
+  21 : ->diminutiveness:paragenetic
+  22 : 
+  23 : ->doggedly:rectum
+  24 : 
+  25 : 
+  26 : 
+  27 : 
+  28 : 
+  29 : 
+  30 : ->regurgitant:Alces
+  31 : 
+  32 : 
+  33 : ->activable:biliation
+  34 : 
+  35 : ->alectryomachy:Cercopithecus
+  36 : 
+  37 : ->fructuary:remancipation
+  38 : 
+  39 : ->procompensation:gnostically
+----------------
+Inserted fittingness:satyr
+----------------
+HASHTABLE
+   SIZE:18
+   CAPACITY:40
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->merchantish:unredeemableness->Megalaemidae:psychicist
+  15 : 
+  16 : ->Potoroinae:rotational->metacone:beholden
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+  20 : ->apprehensibly:auxanometer->phylacteried:cupholder->esophagitis:allopelagic
+  21 : ->diminutiveness:paragenetic
+  22 : 
+  23 : ->doggedly:rectum
+  24 : 
+  25 : 
+  26 : 
+  27 : 
+  28 : 
+  29 : 
+  30 : ->fittingness:satyr->regurgitant:Alces
+  31 : 
+  32 : 
+  33 : ->activable:biliation
+  34 : 
+  35 : ->alectryomachy:Cercopithecus
+  36 : 
+  37 : ->fructuary:remancipation
+  38 : 
+  39 : ->procompensation:gnostically
+----------------
+Looking up metacone found beholden
+----------------
+----------------
+Looking up phylacteried found cupholder
+----------------
+----------------
+Looking up fructuary found remancipation
+----------------
+----------------
+Looking up Megalaemidae found psychicist
+----------------
+----------------
+Looking up phylacteried found cupholder
+----------------
+----------------
+Inserted Atherurus:sekos
+----------------
+HASHTABLE
+   SIZE:19
+   CAPACITY:40
+   LOAD-FACTOR:0.475
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : 
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->merchantish:unredeemableness->Megalaemidae:psychicist
+  15 : 
+  16 : ->Potoroinae:rotational->metacone:beholden
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+  20 : ->apprehensibly:auxanometer->phylacteried:cupholder->esophagitis:allopelagic
+  21 : ->diminutiveness:paragenetic
+  22 : 
+  23 : ->doggedly:rectum
+  24 : 
+  25 : 
+  26 : 
+  27 : 
+  28 : 
+  29 : 
+  30 : ->fittingness:satyr->regurgitant:Alces
+  31 : 
+  32 : 
+  33 : ->activable:biliation
+  34 : 
+  35 : ->Atherurus:sekos->alectryomachy:Cercopithecus
+  36 : 
+  37 : ->fructuary:remancipation
+  38 : 
+  39 : ->procompensation:gnostically
+----------------
+Looking up regurgitant found Alces
+----------------
+----------------
+Looking up doggedly found rectum
+----------------
+----------------
+Inserted exuberantness:birthstool
+----------------
+HASHTABLE
+   SIZE:20
+   CAPACITY:40
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : ->Animalia:emulant
+   5 : 
+   6 : ->frostroot:chide
+   7 : ->exuberantness:birthstool
+   8 : 
+   9 : 
+  10 : 
+  11 : 
+  12 : 
+  13 : 
+  14 : ->merchantish:unredeemableness->Megalaemidae:psychicist
+  15 : 
+  16 : ->Potoroinae:rotational->metacone:beholden
+  17 : 
+  18 : ->Plautus:cenozoology
+  19 : 
+  20 : ->apprehensibly:auxanometer->phylacteried:cupholder->esophagitis:allopelagic
+  21 : ->diminutiveness:paragenetic
+  22 : 
+  23 : ->doggedly:rectum
+  24 : 
+  25 : 
+  26 : 
+  27 : 
+  28 : 
+  29 : 
+  30 : ->fittingness:satyr->regurgitant:Alces
+  31 : 
+  32 : 
+  33 : ->activable:biliation
+  34 : 
+  35 : ->Atherurus:sekos->alectryomachy:Cercopithecus
+  36 : 
+  37 : ->fructuary:remancipation
+  38 : 
+  39 : ->procompensation:gnostically
