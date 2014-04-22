@@ -1,10 +1,3 @@
-//NOTE: Make changes ONLY where I have put comments with "TODO"
-//NOTE: REMOVE the TODO comments when you have done them (That should not have to be said!!!)
-//NOTE: I deliberately left comments minimal -- you are supposed to know enough about hashing to figure out what is needed or know when to ASK. 
-//NOTE: I expect you to test your own code!!
-
-
-
 /** The 'Chaining' exercise.
  *
  * This is an assignment asking students to complete a HashTable that uses
@@ -20,7 +13,7 @@ public class Chaining
      */
     static class Node 
     {
-            /** The name associated with a piece of data (can actually be any object. **/
+            /** The name associated with a piece of data (can actually be any object). **/
             Object key;
 
             /** The data associated with the name. **/
@@ -44,10 +37,10 @@ public class Chaining
         /** Bucket/bins for the hash table - each bucket is the head reference of a linked list. */
         Node [] buckets = new Node[10];
 
-        /** TODO: Add a one-liner explaining the purpose of this field. */
-        int size;
+        /** Size refers to the amount of Nodes that have been added to the buckets.*/
+        int size = 0;
 
-        /** TODO: Add a one-liner comment explaining the purpose of this field. */
+        /** Threshold refers to the amount of Nodes that can be placed in relation to the buckets length before needing to be resized. */
         final double threshold = 0.75;
 
 
@@ -81,14 +74,15 @@ public class Chaining
         }
 
         
-        /** TODO: Document this method.
-         */
+        /** Put takes in a "key" Object with a "value" Object that is to be placed inside the buckets using hash tabling. 
+         * 	If the key already exists in the hash table, the value is simply replaced for that Node. */
         public Object put(Object key, Object value) 
         {
             int code = Math.abs(key.hashCode());
             int index = code % this.buckets.length;
 
             
+            //If the hash table already contains this key, then simply replace its value with the new value.
             if (find(key) != null)
 			{
 				Node temp = find(key);
@@ -97,24 +91,23 @@ public class Chaining
 				return  old_value;
 			}
             
+            //There is a new Node.
 			size++;
 			
+			/*Creates a new Node, assigns its value and key, 
+			then designates the current head Node in this bucket index as the next, 
+			and assigns this Node as the head of this bucket index. */
 			Node new_node = new Node();
 			new_node.value = value;
 			new_node.key = key;
 			new_node.next = buckets[index];
 			buckets[index] = new_node;
 			
+			//If the percentage of Nodes exceeds the threshold, then the buckets array will be doubled in size.
             if (this.loadFactor() > this.threshold)
 			{
 				this.ensureCapacity(this.buckets.length*2);
 			}
-
-            //NOTE: Make sure you insert into the HEAD of each list when you have to add new nodes. 
-            //Delete these comments after adding code + Java docs
-            
-            //If the key was already in the table, just change 
-            //the value and return the previous value
             //
             //Example:
             //   Chaining.HashTable x = new Chaining.HashTable();
@@ -126,7 +119,7 @@ public class Chaining
         }
 
             
-        /** TODO: Document this PRIVATE method.
+        /** This private method finds a Node within the appropriate bucket with the desired key and returns it, or if not found, null.
          */
         private Node find(Object key) 
         {
@@ -146,7 +139,7 @@ public class Chaining
         }
 
         
-        /** TODO: Document this method.
+        /** This returns the percentage of Nodes there are to the size of the has table.
          */
         public double loadFactor() 
         {
@@ -154,7 +147,7 @@ public class Chaining
         }
 
 
-        /** TODO: Document this method.
+        /** This returns the value of a desired key, or a default value if the key is not found.
          */
         public Object get(Object key, Object defaultValue) 
         {
