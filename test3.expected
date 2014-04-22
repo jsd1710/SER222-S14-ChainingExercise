@@ -1,0 +1,1164 @@
+This is the HashTable exercise.
+Type KEY=VALUE[ENTER] to insert a key, type KEY[ENTER] to look one up.
+Type CTRL+D when you are done.
+
+----------------
+Looking up urling found null
+----------------
+----------------
+Looking up fop found null
+----------------
+----------------
+Looking up upholsterous found null
+----------------
+----------------
+Inserted isotrimorphism:gympie
+----------------
+HASHTABLE
+   SIZE:1
+   CAPACITY:10
+   LOAD-FACTOR:0.1
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : ->isotrimorphism:gympie
+   8 : 
+   9 : 
+----------------
+Looking up Oecanthus found null
+----------------
+----------------
+Inserted unarchitectural:unchurchly
+----------------
+HASHTABLE
+   SIZE:2
+   CAPACITY:10
+   LOAD-FACTOR:0.2
+   BINS:
+   0 : 
+   1 : 
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : ->isotrimorphism:gympie
+   8 : ->unarchitectural:unchurchly
+   9 : 
+----------------
+Looking up condylomatous found null
+----------------
+----------------
+Inserted conjugacy:vinta
+----------------
+HASHTABLE
+   SIZE:3
+   CAPACITY:10
+   LOAD-FACTOR:0.3
+   BINS:
+   0 : 
+   1 : ->conjugacy:vinta
+   2 : 
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : ->isotrimorphism:gympie
+   8 : ->unarchitectural:unchurchly
+   9 : 
+----------------
+Inserted coaid:akala
+----------------
+HASHTABLE
+   SIZE:4
+   CAPACITY:10
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : ->conjugacy:vinta
+   2 : ->coaid:akala
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : ->isotrimorphism:gympie
+   8 : ->unarchitectural:unchurchly
+   9 : 
+----------------
+Inserted purveyor:lumbocostal
+----------------
+HASHTABLE
+   SIZE:5
+   CAPACITY:10
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : ->conjugacy:vinta
+   2 : ->coaid:akala
+   3 : 
+   4 : 
+   5 : 
+   6 : ->purveyor:lumbocostal
+   7 : ->isotrimorphism:gympie
+   8 : ->unarchitectural:unchurchly
+   9 : 
+----------------
+Looking up odylism found null
+----------------
+----------------
+Looking up leoparde found null
+----------------
+----------------
+Inserted overdevotion:praya
+----------------
+HASHTABLE
+   SIZE:6
+   CAPACITY:10
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : ->conjugacy:vinta
+   2 : ->overdevotion:praya->coaid:akala
+   3 : 
+   4 : 
+   5 : 
+   6 : ->purveyor:lumbocostal
+   7 : ->isotrimorphism:gympie
+   8 : ->unarchitectural:unchurchly
+   9 : 
+----------------
+Inserted hydrostatics:foray
+----------------
+HASHTABLE
+   SIZE:7
+   CAPACITY:10
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : ->conjugacy:vinta
+   2 : ->overdevotion:praya->coaid:akala
+   3 : 
+   4 : 
+   5 : 
+   6 : ->purveyor:lumbocostal
+   7 : ->hydrostatics:foray->isotrimorphism:gympie
+   8 : ->unarchitectural:unchurchly
+   9 : 
+----------------
+Looking up overdevotion found praya
+----------------
+----------------
+Inserted Ceratitidae:crapaud
+----------------
+HASHTABLE
+   SIZE:8
+   CAPACITY:20
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : ->overdevotion:praya
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->coaid:akala
+  13 : 
+  14 : 
+  15 : 
+  16 : ->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Looking up purveyor found lumbocostal
+----------------
+----------------
+Looking up myelomeningitis found null
+----------------
+----------------
+Looking up postclival found null
+----------------
+----------------
+Inserted tabor:extracostal
+----------------
+HASHTABLE
+   SIZE:9
+   CAPACITY:20
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : ->overdevotion:praya
+   3 : 
+   4 : 
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->coaid:akala
+  13 : 
+  14 : 
+  15 : 
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Looking up isotrimorphism found gympie
+----------------
+----------------
+Inserted magnetotherapy:rumbowline
+----------------
+HASHTABLE
+   SIZE:10
+   CAPACITY:20
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : ->overdevotion:praya
+   3 : 
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->coaid:akala
+  13 : 
+  14 : 
+  15 : 
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Looking up leoparde found null
+----------------
+----------------
+Looking up amaroidal found null
+----------------
+----------------
+Inserted upholsterous:protector
+----------------
+HASHTABLE
+   SIZE:11
+   CAPACITY:20
+   LOAD-FACTOR:0.55
+   BINS:
+   0 : 
+   1 : 
+   2 : ->overdevotion:praya
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->coaid:akala
+  13 : 
+  14 : 
+  15 : 
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Looking up Polyangium found null
+----------------
+----------------
+Inserted fop:salpinx
+----------------
+HASHTABLE
+   SIZE:12
+   CAPACITY:20
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : 
+   2 : ->overdevotion:praya
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->coaid:akala
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Inserted nonlicet:subadjacent
+----------------
+HASHTABLE
+   SIZE:13
+   CAPACITY:20
+   LOAD-FACTOR:0.65
+   BINS:
+   0 : 
+   1 : 
+   2 : ->overdevotion:praya
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->nonlicet:subadjacent->coaid:akala
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Looking up magnetotherapy found rumbowline
+----------------
+----------------
+Inserted sessionary:processionist
+----------------
+HASHTABLE
+   SIZE:14
+   CAPACITY:20
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist->overdevotion:praya
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->nonlicet:subadjacent->coaid:akala
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Inserted quisling:Pelidnota
+----------------
+HASHTABLE
+   SIZE:15
+   CAPACITY:20
+   LOAD-FACTOR:0.75
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist->overdevotion:praya
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : ->hydrostatics:foray
+   8 : ->quisling:Pelidnota->unarchitectural:unchurchly
+   9 : 
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : ->nonlicet:subadjacent->coaid:akala
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->tabor:extracostal->purveyor:lumbocostal
+  17 : ->isotrimorphism:gympie->Ceratitidae:crapaud
+  18 : 
+  19 : 
+----------------
+Inserted postclival:largitional
+----------------
+HASHTABLE
+   SIZE:16
+   CAPACITY:40
+   LOAD-FACTOR:0.4
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : 
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : 
+  36 : 
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted odylism:Padraig
+----------------
+HASHTABLE
+   SIZE:17
+   CAPACITY:40
+   LOAD-FACTOR:0.425
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : 
+  36 : 
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Looking up leoparde found null
+----------------
+----------------
+Looking up unarchitectural found unchurchly
+----------------
+----------------
+Looking up condylomatous found null
+----------------
+----------------
+Inserted embowerment:outnumber
+----------------
+HASHTABLE
+   SIZE:18
+   CAPACITY:40
+   LOAD-FACTOR:0.45
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->embowerment:outnumber
+  36 : 
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted Polyangium:baster
+----------------
+HASHTABLE
+   SIZE:19
+   CAPACITY:40
+   LOAD-FACTOR:0.475
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : 
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted myelomeningitis:hemapophyseal
+----------------
+HASHTABLE
+   SIZE:20
+   CAPACITY:40
+   LOAD-FACTOR:0.5
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : 
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted leoparde:spadeful
+----------------
+HASHTABLE
+   SIZE:21
+   CAPACITY:40
+   LOAD-FACTOR:0.525
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted mintmaster:supervisal
+----------------
+HASHTABLE
+   SIZE:22
+   CAPACITY:40
+   LOAD-FACTOR:0.55
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : 
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted urling:nonconductible
+----------------
+HASHTABLE
+   SIZE:23
+   CAPACITY:40
+   LOAD-FACTOR:0.575
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : 
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Looking up mintmaster found supervisal
+----------------
+----------------
+Looking up hydrostatics found foray
+----------------
+----------------
+Looking up Polyangium found baster
+----------------
+----------------
+Looking up nonlicet found subadjacent
+----------------
+----------------
+Inserted drepanoid:serpentary
+----------------
+HASHTABLE
+   SIZE:24
+   CAPACITY:40
+   LOAD-FACTOR:0.6
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Looking up Polyangium found baster
+----------------
+----------------
+Looking up mintmaster found supervisal
+----------------
+----------------
+Inserted Lecythis:strengthful
+----------------
+HASHTABLE
+   SIZE:25
+   CAPACITY:40
+   LOAD-FACTOR:0.625
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : 
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->Lecythis:strengthful->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted cocainomaniac:paleoatavism
+----------------
+HASHTABLE
+   SIZE:26
+   CAPACITY:40
+   LOAD-FACTOR:0.65
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : ->cocainomaniac:paleoatavism
+   8 : 
+   9 : ->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->Lecythis:strengthful->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted condylomatous:Homoean
+----------------
+HASHTABLE
+   SIZE:27
+   CAPACITY:40
+   LOAD-FACTOR:0.675
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : ->cocainomaniac:paleoatavism
+   8 : 
+   9 : ->condylomatous:Homoean->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->Lecythis:strengthful->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted Oecanthus:monkeyhood
+----------------
+HASHTABLE
+   SIZE:28
+   CAPACITY:40
+   LOAD-FACTOR:0.7
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : ->cocainomaniac:paleoatavism
+   8 : 
+   9 : ->condylomatous:Homoean->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->Oecanthus:monkeyhood->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->Lecythis:strengthful->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : 
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Looking up cocainomaniac found paleoatavism
+----------------
+----------------
+Inserted bastionet:alogy
+----------------
+HASHTABLE
+   SIZE:29
+   CAPACITY:40
+   LOAD-FACTOR:0.725
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : ->cocainomaniac:paleoatavism
+   8 : 
+   9 : ->condylomatous:Homoean->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->Oecanthus:monkeyhood->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->Lecythis:strengthful->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->coaid:akala->nonlicet:subadjacent
+  33 : ->bastionet:alogy
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Inserted amaroidal:densen
+----------------
+HASHTABLE
+   SIZE:30
+   CAPACITY:40
+   LOAD-FACTOR:0.75
+   BINS:
+   0 : 
+   1 : 
+   2 : ->sessionary:processionist
+   3 : ->upholsterous:protector
+   4 : ->magnetotherapy:rumbowline
+   5 : ->odylism:Padraig
+   6 : 
+   7 : ->cocainomaniac:paleoatavism
+   8 : 
+   9 : ->condylomatous:Homoean->postclival:largitional
+  10 : 
+  11 : ->myelomeningitis:hemapophyseal->conjugacy:vinta
+  12 : 
+  13 : 
+  14 : 
+  15 : ->fop:salpinx
+  16 : ->purveyor:lumbocostal->tabor:extracostal
+  17 : ->isotrimorphism:gympie
+  18 : 
+  19 : 
+  20 : ->drepanoid:serpentary
+  21 : 
+  22 : ->overdevotion:praya
+  23 : 
+  24 : 
+  25 : 
+  26 : 
+  27 : ->hydrostatics:foray
+  28 : ->Oecanthus:monkeyhood->mintmaster:supervisal->unarchitectural:unchurchly->quisling:Pelidnota
+  29 : ->Lecythis:strengthful->urling:nonconductible
+  30 : 
+  31 : 
+  32 : ->amaroidal:densen->coaid:akala->nonlicet:subadjacent
+  33 : ->bastionet:alogy
+  34 : 
+  35 : ->Polyangium:baster->embowerment:outnumber
+  36 : ->leoparde:spadeful
+  37 : ->Ceratitidae:crapaud
+  38 : 
+  39 : 
+----------------
+Looking up mintmaster found supervisal
+----------------
+----------------
+Looking up nonlicet found subadjacent
+----------------
+----------------
+Looking up myelomeningitis found hemapophyseal
+----------------
+----------------
+Looking up isotrimorphism found gympie
+----------------
